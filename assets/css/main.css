@@ -76,3 +76,29 @@ nav a{
   height: 250px;
   background-color: lightcoral;
 }
+@media (min-width: 481px) and (max-width: 767px) {
+  nav{
+    justify-content: center;
+  }
+
+  #hero-home{
+    flex-direction: column-reverse;
+  }
+
+  #hero-home img{
+    width: 30%;
+    height: 50%;
+  }
+
+  .text-hero{
+    text-align: center;
+  }
+
+  .contenedor-hijo{
+    width: 70%;
+    height: 200px;
+    background-color: lightgreen;
+  }
+  .display-none{
+    display: none;
+  }
